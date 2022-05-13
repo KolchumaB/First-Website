@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gelasio&family=Nunito:wght@300&display=swap');
+
+.wallpaper {
+    background-image: url(images/background.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100%;
+ }
+
+ .nav {
+     display: flex;
+     font-size: 20px;
+     font-family:'Gelasio', sans-serif;
+     justify-content: space-evenly;
+ }
+
+.nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: rgb(210, 194, 175);
+    outline-style: double;
+    padding: 5px;
+ }
+
+.nav a:hover {
+    color: rgb(121, 86, 6);
+ }
+ 
+
+ * {
+    box-sizing: border-box;
+  }
+  
+ .together {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    background-color: rgba(247, 234, 220, 0.849);
+    padding: 9px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  /* Clearfix (clear floats) */
+  .images::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+.image1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 17%;
+}
+
+.heading {
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Gelasio', sans-serif;
+    color: rgb(92, 66, 4);
+}
+
+.paragraph {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.732);
+    padding: 1px;
+    margin: 50px;
+    font-family:'Gelasio', sans-serif;
+
+}
+
+.paragraph2 {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.732);
+    padding: 1px;
+    margin: 50px;
+    font-family:'Gelasio', sans-serif;
+}
+
+.kbheading {
+    text-align: center;
+    font-family: 'Gelasio', sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.732);
+    padding: -1px;
+    margin: 50px;
+}
+
+.h2, h3 {
+    font-size: 20px;
+}
+
+
+#ingredients {
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Gelasio', sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.732);
+    padding: -1px;
+    margin: 50px;
+}
+
+#instructions {
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Gelasio', sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.732);
+    padding: -1px;
+    margin: 50px;
+}
+
+.image2 img {
+    display: flex;
+    justify-content: center;
+    width: 17%;
+    padding: 5px;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.contact {
+    display: flex;
+    font-size: 18px;
+    text-align: center;
+    font-family:'Gelasio', sans-serif;
+    justify-content: space-evenly;
+}
+
+.contactinfo {
+   color: rgb(0, 0, 0);
+   text-decoration: none;
+   background-color: rgba(246, 229, 198, 0.708);
+   outline-style: double;
+   padding: 5px;
+}
+
+.media {
+    text-align: center;
+}
+
+a.button{
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:3em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Gelasio', sans-serif;
+    font-size: 18px;
+    color:#FFFFFF;
+    background-color:#754f22;
+    text-align:center;
+    transition: all 0.2s;
+}
+a.button:hover{
+    background-color:#eb8153;
+}
+
+a.button{
+    text-align: center;
+    display:table;
+    margin:0.4em auto;
+}
